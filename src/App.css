@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --background-color:#1A202C;
+  --accent-color:#ff7e65;
+  --text-color:rgba(255, 255, 255, 0.92);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: 'Open Sans', sans-serif;
+  color:var(--text-color);
+}
+
+.grid-row{
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 4fr;
+  column-gap: 1rem;
+}
+
+.grid-col {
+  display: flex;
+  flex-direction: column;    
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.heading {
+  display: grid;
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.heading-text {
+  padding: 0rem 3rem;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;  
+  text-align: center;
+}
+
+.list-style{
+  display: inline-block;  
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+}
+
+.list-item {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.list-style > li > a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.line-division{
+  height: 100%;
+  border-left: 6px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.left-nav > ul {
+  overflow: hidden;
+  overflow-y: scroll;
+   width: 15vw;
+  height: calc(((100vh - 1.5rem) - 64px) - 42px);
+}
