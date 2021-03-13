@@ -1,32 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 :root {
-  --background-color:#1A202C;
-  --accent-color:#ff7e65;
-  --text-color:rgba(255, 255, 255, 0.92);
+  --background-color: #1a202c;
+  --accent-color: #fd7014;
+  --text-color: rgba(255, 255, 255, 0.92);
+  --heading-color: #1a1e2c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
   background-color: var(--background-color);
-  font-family: 'Open Sans', sans-serif;
-  color:var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  /* text-align: center; */
 }
 
-.grid-row{
+.grid-row {
   display: grid;
-  grid-template-columns: 1fr 0.1fr 4fr;
+  grid-template-columns: 1fr 4fr;
   column-gap: 1rem;
 }
 
 .grid-col {
   display: flex;
-  flex-direction: column;    
+  flex-direction: column;
   padding: 1rem;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  margin-top: 6rem;
 }
 
 .heading {
@@ -41,14 +47,18 @@ body {
 
 .intro {
   display: flex;
+  position: fixed;
+  top: 0;
+  background-color: var(--heading-color);
   align-items: center;
   justify-content: space-between;
-  width: 100%;  
+  width: 100%;
+  text-overflow: clip;
   text-align: center;
 }
 
-.list-style{
-  display: inline-block;  
+.list-style {
+  display: inline-block;
   list-style: none;
 }
 
@@ -59,22 +69,25 @@ body {
 .list-item {
   padding: 1rem;
   margin: 1rem;
+  text-align: center;
 }
 
-.list-style > li > a{
+.list-style > li > a {
   text-decoration: none;
   color: var(--text-color);
 }
 
-.line-division{
+.line-division {
   height: 100%;
   border-left: 6px solid var(--text-color);
   color: var(--text-color);
 }
 
-.left-nav > ul {
+.left-nav {
   overflow: hidden;
-  overflow-y: scroll;
-   width: 15vw;
-  height: calc(((100vh - 1.5rem) - 64px) - 42px);
+  position: sticky;
+  top: 6rem;
+  overflow-y: auto;
+  padding-right: 2rem;
+  height: calc(((100vh - 1.5rem) - 84px) - 42px);
 }

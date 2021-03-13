@@ -65,17 +65,15 @@ function App() {
             <div className="line-division"></div>
           </div> */}
           <div className="grid-col">
-            <section>
-              <Switch>
-                {routes.map(({ id, path, component }) => (
-                  <Route key={id} path={path}>
-                    {component}
-                  </Route>
-                ))}
-              </Switch>
-            </section>
+            <Switch>
+              {routes.map(({ id, path, component }) => (
+                <Route key={id} path={path}>
+                  {component}
+                </Route>
+              ))}
+            </Switch>
           </div>
-        </Router> 
+        </Router>
       </div>
     </>
   );
