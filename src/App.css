@@ -55,6 +55,7 @@ body {
   display: flex;
   position: fixed;
   top: 0;
+  z-index: 10;
   background-color: var(--heading-color);
   align-items: center;
   justify-content: space-between;
