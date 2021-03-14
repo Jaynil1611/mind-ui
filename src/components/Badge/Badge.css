@@ -76,11 +76,17 @@
     background-color: var(--accent-color);
 }
 
-.badge-icon-green {
-    background-color: darkgreen;
+.dot-badge {
+    position: absolute;
+    top: 0.1rem;
+    left: 1.8rem;
+    height: 9px;
+    padding: 0;
+    min-width: 9px;
+    border-radius: 4px;
+    background-color: var(--accent-color);
 }
 
-.badge-icon-cyan {
-    background-color: var(--text-color);
-    color: var(--secondary-color);
+.badge-icon-green {
+    background-color: var(--secondary-color);
 }

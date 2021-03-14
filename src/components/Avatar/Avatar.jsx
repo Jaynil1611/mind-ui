@@ -1,5 +1,6 @@
 import React from "react";
 import "./Avatar.css";
+
 const imageList = [
   {
     id: 7,
@@ -87,9 +88,12 @@ function Avatar(props) {
         Sometimes, you need to show a badge on the bottom right corner of the
         avatar.
       </p>
-      <div className="avatar-images badge">
+      <div className="avatar-images ">
         {imageList.map(({ id, src }) => (
-          <img className="avatar" key={id} src={src} alt="" />
+          <div className="badge">
+            <img className="avatar" key={id} src={src} alt="" />
+            <span className="dot-badge-avatar"></span>
+          </div>
         ))}
       </div>
       <h3> Notes : </h3>

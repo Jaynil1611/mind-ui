@@ -8,6 +8,9 @@
   --light-color: #EEEEEE;
   --secondary-color: #393E46;
   --transparent-color:rgba(226, 232, 240, 0.16);
+  --focus-color-primary:#993d01;
+  --hover-color-primary:#ed5f02;
+  --hover-color-secondary:#2a2d33;
 }
 
 * {
@@ -93,4 +96,8 @@ body {
   overflow-y: auto;
   padding-right: 2rem;
   height: calc(((100vh - 1.5rem) - 84px) - 42px);
+}
+
+a {
+  color: var(--accent-color);
 }

@@ -39,11 +39,6 @@ function Badge(props) {
           </i>
         </div>
         <div className="icons">
-          <i class="fas fa-shopping-cart">
-            <span className="badge-icon badge-icon-cyan"> 2 </span>
-          </i>
-        </div>
-        <div className="icons">
           <i class="fas fa-envelope">
             <span className="badge-icon"> 2 </span>
           </i>
@@ -54,13 +49,23 @@ function Badge(props) {
           </i>
         </div>
         <div className="icons">
-          <i class="fas fa-envelope">
-            <span className="badge-icon badge-icon-cyan"> 2 </span>
+          <i class="far fa-envelope">
+            <span className="dot-badge"></span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="far fa-envelope">
+            <span className="dot-badge badge-icon-green"></span>
           </i>
         </div>
       </div>
-      {/* <h3> Badge on Avatar</h3>
-      <p> Badges on avatars display the user's current status.</p> */}
+      <h3> Notes: </h3>
+      <p>
+        The icons used above are taken from{" "}
+        <span>
+          <a href="https://fontawesome.com/">FontAwesome Icons</a>
+        </span>
+      </p>
     </div>
   );
 }
