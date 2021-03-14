@@ -1,10 +1,12 @@
 .avatar-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;    
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;    
 }
 
-.avatar-container > p, h2, h3, .avatar-images{
+.avatar-container > *{
     margin: 0.8rem 0;
 }
 

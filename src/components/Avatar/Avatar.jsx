@@ -54,7 +54,7 @@ const imageList = [
 function Avatar(props) {
   return (
     <div className="avatar-container">
-      <h2 className="avatar-heading"> Avatar</h2>
+      <h2> Avatar</h2>
       <p className="avatar-desc">
         Avatar is a graphical representation of a user or user's character or
         personna.
@@ -70,7 +70,6 @@ function Avatar(props) {
         You can modify the size of Avatars by modifying the width and height
         property of images.
       </p>
-      <h3> Usage </h3>
       <div className="avatar-images size">
         {imageList.map(({ id, src, width, height }) => (
           <img
@@ -83,13 +82,11 @@ function Avatar(props) {
           />
         ))}
       </div>
-
       <h3> Avatar with Badge</h3>
       <p>
         Sometimes, you need to show a badge on the bottom right corner of the
         avatar.
       </p>
-      <h3> Usage </h3>
       <div className="avatar-images badge">
         {imageList.map(({ id, src }) => (
           <img className="avatar" key={id} src={src} alt="" />

@@ -5,6 +5,9 @@
   --accent-color: #fd7014;
   --text-color: rgba(255, 255, 255, 0.92);
   --heading-color: #1a1e2c;
+  --light-color: #EEEEEE;
+  --secondary-color: #393E46;
+  --transparent-color:rgba(226, 232, 240, 0.16);
 }
 
 * {

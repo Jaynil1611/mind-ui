@@ -1,7 +1,68 @@
 import React from "react";
+import "./Badge.css";
 
 function Badge(props) {
-  return <div>Badge</div>;
+  return (
+    <div className="badge-container">
+      <h2> Badge </h2>
+      <p>
+        Badges are used to display an item's current status for quick
+        recognition
+      </p>
+      <h3> Usage </h3>
+      <h3> Badge with Colors and Round Badges </h3>
+      <div className="badges">
+        <div className="square-badge"> DEFAULT </div>
+        <div className="square-badge success"> SUCCESS </div>
+        <div className="square-badge removed"> REMOVED </div>
+        <div className="square-badge new"> NEW </div>
+        <div className="square-badge warning"> WARNING </div>
+        <div className="round-badge"> 7 </div>
+        <div className="round-badge success"> 8 </div>
+        <div className="round-badge removed"> 9 </div>
+        <div className="round-badge new"> 10 </div>
+      </div>
+      <h3> Badge on Icons </h3>
+      <p>
+        Badges on icons represent the status or quantity of the item which the
+        icon portrays.
+      </p>
+      <div className="badges">
+        <div className="icons">
+          <i class="fas fa-shopping-cart">
+            <span className="badge-icon"> 6 </span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="fas fa-shopping-cart">
+            <span className="badge-icon badge-icon-green"> 2 </span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="fas fa-shopping-cart">
+            <span className="badge-icon badge-icon-cyan"> 2 </span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="fas fa-envelope">
+            <span className="badge-icon"> 2 </span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="fas fa-envelope">
+            <span className="badge-icon badge-icon-green"> 2 </span>
+          </i>
+        </div>
+        <div className="icons">
+          <i class="fas fa-envelope">
+            <span className="badge-icon badge-icon-cyan"> 2 </span>
+          </i>
+        </div>
+      </div>
+      {/* <h3> Badge on Avatar</h3>
+      <p> Badges on avatars display the user's current status.</p> */}
+    </div>
+  );
 }
 
 export default Badge;
