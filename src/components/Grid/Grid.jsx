@@ -24,10 +24,10 @@ function Grid(props) {
       <h3> Grid with 2 columns </h3>
       <div className="grid-example-row-2">
         <div className="grid-example-col">
-          <img className="img-responsive" src={imageList[0]} alt="" />
+          <img src={imageList[1]} alt="" />
         </div>
         <div className="grid-example-col">
-          <img className="img-responsive" src={imageList[1]} alt="" />
+          <img src={imageList[2]} alt="" />
         </div>
       </div>
     </div>

@@ -13,6 +13,7 @@ import {
   Navigation,
   Modal,
   Grid,
+  TextUtil,
 } from "./components";
 import { v4 } from "uuid";
 
@@ -28,7 +29,12 @@ const routes = [
   { id: v4(), path: "/nav", name: "Navigation", component: <Navigation /> },
   { id: v4(), path: "/modal", name: "Modal", component: <Modal /> },
   { id: v4(), path: "/grid", name: "Grid", component: <Grid /> },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
+  {
+    id: v4(),
+    path: "/typography",
+    name: "Typography",
+    component: <TextUtil />,
+  },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },

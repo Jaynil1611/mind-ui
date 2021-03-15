@@ -9,3 +9,4 @@ export { default as List } from "./List/List";
 export { default as Navigation } from "./Navigation/Navigation";
 export { default as Modal } from "./Modal/Modal";
 export { default as Grid } from "./Grid/Grid";
+export { default as TextUtil } from "./TextUtils/TextUtils";
