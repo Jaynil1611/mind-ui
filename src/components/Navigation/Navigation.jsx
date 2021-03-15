@@ -14,7 +14,7 @@ function Navigation(props) {
       <h3> Desktop Navigation </h3>
       <p> Left Nav </p>
       <div className="navigation-examples">
-        <ul className="navbar navbar-left">
+        <ul className="nav nav-left">
           <li>
             <a className="nav-link" href="nav#">
               Home
@@ -44,7 +44,7 @@ function Navigation(props) {
       </div>
       <p> Right Nav </p>
       <div className="navigation-examples">
-        <ul className="navbar navbar-right">
+        <ul className="nav nav-right">
           <li>
             <a className="nav-link" href="nav#">
               Home

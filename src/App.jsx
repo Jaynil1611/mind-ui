@@ -11,6 +11,7 @@ import {
   Input,
   List,
   Navigation,
+  Modal,
 } from "./components";
 import { v4 as uuidv4, v4 } from "uuid";
 
@@ -24,7 +25,7 @@ const routes = [
   { id: v4(), path: "/input", name: "Input", component: <Input /> },
   { id: v4(), path: "/list", name: "List", component: <List /> },
   { id: v4(), path: "/nav", name: "Navigation", component: <Navigation /> },
-  { id: v4(), path: "/input", name: "Toast", component: "<Card />" },
+  { id: v4(), path: "/modal", name: "Modal", component: <Modal /> },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },

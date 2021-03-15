@@ -7,3 +7,4 @@ export { default as Image } from "./Image/Image";
 export { default as Input } from "./Input/Input";
 export { default as List } from "./List/List";
 export { default as Navigation } from "./Navigation/Navigation";
+export { default as Modal } from "./Modal/Modal";

@@ -1,0 +1,45 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.modal-container > * {
+    margin: 0.8rem 0;
+}
+
+.modal-examples {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.modal {
+    display: flex;
+    z-index:3;
+    position: relative;          
+    width: 50%;
+    padding:1rem;
+    margin:auto;
+    background-color: var(--secondary-color);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+    position: relative;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}

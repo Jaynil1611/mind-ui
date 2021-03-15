@@ -18,7 +18,7 @@
     border-radius: 1rem;
 }
 
-.navbar {
+.nav {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -26,11 +26,11 @@
     justify-content: flex-start;    
 }
 
-.navbar-left {
+.nav-left {
     justify-content: flex-start;
 }
 
-.navbar-right {
+.nav-right {
     justify-content: flex-end;
 }
 
