@@ -1,7 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Avatar, Badge, Alert, Button, Card, Image, Input } from "./components";
+import {
+  Avatar,
+  Badge,
+  Alert,
+  Button,
+  Card,
+  Image,
+  Input,
+  List,
+  Navigation,
+} from "./components";
 import { v4 as uuidv4, v4 } from "uuid";
 
 const routes = [
@@ -12,8 +22,8 @@ const routes = [
   { id: v4(), path: "/card", name: "Card", component: <Card /> },
   { id: v4(), path: "/image", name: "Image", component: <Image /> },
   { id: v4(), path: "/input", name: "Input", component: <Input /> },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Modal", component: "<Card />" },
+  { id: v4(), path: "/list", name: "List", component: <List /> },
+  { id: v4(), path: "/nav", name: "Navigation", component: <Navigation /> },
   { id: v4(), path: "/input", name: "Toast", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
   { id: v4(), path: "/input", name: "Input", component: "<Card />" },
