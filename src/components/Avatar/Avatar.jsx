@@ -1,7 +1,7 @@
 import React from "react";
 import "./Avatar.css";
 
-const imageList = [
+export const imageList = [
   {
     id: 7,
     src: "https://ui-avatars.com/api/?name=Jaynil+Gaglani",
