@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-const imageList = [
+export const imageList = [
   "https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   "https://images.unsplash.com/photo-1529782891902-61b57cb8041c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   "https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
