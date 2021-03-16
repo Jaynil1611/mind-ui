@@ -1,7 +1,7 @@
 import React from "react";
-import "./TextUtils.css";
+import "./Typography.css";
 
-function TextUtils(props) {
+function Typography(props) {
   const headingText = "Get curious, Life’s going to get hard.";
   const subtitle = `Love to Code? Join my course with an instant discount of $99.`;
 
@@ -31,8 +31,15 @@ function TextUtils(props) {
         <div className="subtitle-sm spacing">subtitle2. {subtitle}</div>
         <div className="body-sm spacing-body">body2. {bodyText}</div>
       </div>
+      <h3> Centered and Gray Text </h3>
+      <div className="text-examples">
+        <div className="subtitle-md spacing text-center">{subtitle}</div>
+        <div className="subtitle-md spacing text-center text-gray">
+          {subtitle}
+        </div>
+      </div>
     </div>
   );
 }
 
-export default TextUtils;
+export default Typography;

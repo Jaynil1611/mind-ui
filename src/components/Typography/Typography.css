@@ -66,3 +66,11 @@
 .spacing-body {
     padding: 0 1rem;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: var(--secondary-color);
+}
