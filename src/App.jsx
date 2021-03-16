@@ -15,7 +15,8 @@ import {
   Grid,
   Typography,
   Toast,
-  Rating
+  Rating,
+  Home,
 } from "./components";
 import { v4 } from "uuid";
 
@@ -38,7 +39,8 @@ const routes = [
     component: <Typography />,
   },
   { id: v4(), path: "/toast", name: "Toast", component: <Toast /> },
-  { id: v4(), path: "/rating", name: "Rating", component: <Rating/> },
+  { id: v4(), path: "/rating", name: "Rating", component: <Rating /> },
+  { id: v4(), path: "/", name: "Home", component: <Home /> },
 ];
 
 function App() {

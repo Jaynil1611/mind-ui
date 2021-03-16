@@ -1,56 +1,67 @@
 .avatar-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;    
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.avatar-container > *{
-    margin: 0.8rem 0;
+.avatar-container > * {
+  margin: 0.8rem 0;
 }
 
 .avatar-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem;
-    border: 1px solid white;
-    border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
 }
 
 .size {
-    justify-content: flex-start;
-    padding: 1.5rem;
+  justify-content: flex-start;
+  padding: 1.5rem;
 }
 
 .avatar {
-    width:5rem;
-    height: 5rem;
-    border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
 .avatar-size {
-    border-radius: 50%;
-    padding: 0.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
 }
 
-/* .avatar-container a {
-    color: red;
-} */
+.avatar-image-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-image-md {
+  width: 64px;
+  height: 64px;
+}
+
+.avatar-image-lg {
+  width: 96px;
+  height: 96px;
+}
 
 .badge {
-    position: relative;
-    top:0;
+  position: relative;
+  top: 0;
 }
 
 .dot-badge-avatar {
-    position: absolute;
-    top: 3.8rem;
-    left: 3.5rem;
-    height: 15px;
-    padding: 0;
-    min-width: 15px;
-    border-radius: 8px;
-    background-color: var(--accent-color);
+  position: absolute;
+  top: 3.8rem;
+  left: 3.5rem;
+  height: 15px;
+  padding: 0;
+  min-width: 15px;
+  border-radius: 8px;
+  background-color: var(--accent-color);
 }

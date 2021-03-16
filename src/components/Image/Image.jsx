@@ -11,13 +11,13 @@ function Image(props) {
       <h3> Image with variable size </h3>
       <div className="image-examples">
         <div>
-          <img className="img-small" src={imageList[4].src} alt="" />
+          <img className="img-small" src={imageList[3].src} alt="" />
         </div>
         <div>
-          <img className="img-medium" src={imageList[4].src} alt="" />
+          <img className="img-medium" src={imageList[3].src} alt="" />
         </div>
         <div>
-          <img className="img-large" src={imageList[4].src} alt="" />
+          <img className="img-large" src={imageList[3].src} alt="" />
         </div>
       </div>
       <h3> Rounded Image </h3>
@@ -25,14 +25,14 @@ function Image(props) {
         <div>
           <img
             className="img-small img-rounded"
-            src={imageList[4].src}
+            src={imageList[2].src}
             alt=""
           />
         </div>
         <div>
           <img
             className="img-medium img-rounded"
-            src={imageList[4].src}
+            src={imageList[2].src}
             alt=""
           />
         </div>

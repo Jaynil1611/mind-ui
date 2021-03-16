@@ -21,7 +21,10 @@ function Button(props) {
         <button type="button" className="button button-primary">
           Button
         </button>
-        <button type="button" className="button button-primary button-lg">
+        <button
+          type="button"
+          className="button button-primary button-lg button-link"
+        >
           <a href="https://github.com/Jaynil1611/mind-ui"> Button </a>
         </button>
       </div>
@@ -36,7 +39,10 @@ function Button(props) {
         <button type="button" className="button button-secondary">
           Button
         </button>
-        <button type="button" className="button button-secondary button-lg">
+        <button
+          type="button"
+          className="button button-secondary button-lg button-link"
+        >
           <a href="https://github.com/Jaynil1611/mind-ui"> Button </a>
         </button>
       </div>

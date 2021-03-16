@@ -12,3 +12,4 @@ export { default as Grid } from "./Grid/Grid";
 export { default as Typography } from "./Typography/Typography";
 export { default as Toast } from "./Toast/Toast";
 export { default as Rating } from "./Rating/Rating";
+export { default as Home } from "./Home/Home";
