@@ -14,6 +14,8 @@ import {
   Modal,
   Grid,
   Typography,
+  Toast,
+  Rating
 } from "./components";
 import { v4 } from "uuid";
 
@@ -35,15 +37,8 @@ const routes = [
     name: "Typography",
     component: <Typography />,
   },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
-  { id: v4(), path: "/input", name: "Input", component: "<Card />" },
+  { id: v4(), path: "/toast", name: "Toast", component: <Toast /> },
+  { id: v4(), path: "/rating", name: "Rating", component: <Rating/> },
 ];
 
 function App() {

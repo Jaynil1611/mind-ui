@@ -13,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     padding: 1rem;
     border: 1px solid white;
     border-radius: 1rem;
@@ -27,6 +26,7 @@
     padding:1rem;
     margin:auto;
     background-color: var(--secondary-color);
+    transition: all 0.2s ease-in-out;
 }
 
 .modal-content {
@@ -42,4 +42,7 @@
     position: relative;
     margin-top: 1rem;
     padding: 0.5rem;
+    border: 2px solid var(--accent-color);
+    outline: none;
+    border-radius: 0.5rem;
 }

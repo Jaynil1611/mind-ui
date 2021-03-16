@@ -26,6 +26,11 @@ const ModalContent = ({ setShowModal }) => {
 function Modal(props) {
   const [showModal, setShowModal] = useState(false);
 
+  const handleModalClick = () => {
+    setShowModal(true);
+    setTimeout(() => setShowModal(false), 6000);
+  };
+
   return (
     <div className="modal-container">
       <h3> Modal </h3>
@@ -37,7 +42,7 @@ function Modal(props) {
         <button
           type="button"
           className="button button-primary"
-          onClick={() => setShowModal(true)}
+          onClick={handleModalClick}
         >
           Open Modal
         </button>

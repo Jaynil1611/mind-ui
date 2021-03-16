@@ -10,3 +10,5 @@ export { default as Navigation } from "./Navigation/Navigation";
 export { default as Modal } from "./Modal/Modal";
 export { default as Grid } from "./Grid/Grid";
 export { default as Typography } from "./Typography/Typography";
+export { default as Toast } from "./Toast/Toast";
+export { default as Rating } from "./Rating/Rating";
