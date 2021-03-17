@@ -59,9 +59,10 @@
   position: absolute;
   top: 3.8rem;
   left: 3.5rem;
-  height: 15px;
+  height: 12px;
   padding: 0;
-  min-width: 15px;
-  border-radius: 8px;
+  min-width: 12px;
+  border: 2px solid white;
+  border-radius: 10px;
   background-color: var(--accent-color);
 }

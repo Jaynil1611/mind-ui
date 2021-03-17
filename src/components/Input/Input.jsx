@@ -11,7 +11,7 @@ function Input(props) {
       <div className="input-examples">
         <div className="input-box">
           <label className="label"> Name </label>
-          <input className="input" type="text" placeholder="Enter name" />
+          <input className="input" type="text" placeholder="Name" />
           <p className="input-error"> Full Name should be written*</p>
         </div>
         <div className="input-box">

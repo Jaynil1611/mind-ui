@@ -63,7 +63,7 @@ function List(props) {
               <img className="avatar" key={id} src={src} alt="" />
               <div className="list-stacked">
                 <h3> {name} </h3>
-                <p> {name.toLowerCase()}@gmail.com </p>
+                <p>{name.toLowerCase()}@gmail.com</p>
               </div>
             </li>
           ))}
