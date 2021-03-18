@@ -52,13 +52,19 @@ function App() {
             <h1 className="heading-text"> Mind UI Documentation </h1>
             <ul className="list-style navbar">
               <li className="list-item">
-                <a href="#"> Home </a>
+                <a href="/"> Home </a>
               </li>
               <li className="list-item">
-                <a href="#"> About </a>
+                <a href="/"> About </a>
               </li>
               <li className="list-item">
-                <a href="#"> Github </a>
+                <a
+                  href="https://github.com/Jaynil1611/mind-ui"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </div>
