@@ -19,13 +19,19 @@
     border-radius: 1rem;
 }
 
+.toast-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .toast {
+    display: flex;
     position: fixed;
     bottom: 3rem;
-    left: 45%;
-    display: flex;
-    padding: 1rem;
     align-items: center;
+    margin: auto;
+    z-index: 0;
+    padding: 1rem;
     background-color: var(--secondary-color);
     transition: all 0.2s ease 0s;
 }

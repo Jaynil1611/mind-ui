@@ -25,7 +25,7 @@ function Toast(props) {
 
   const handleToastClick = () => {
     setShowToast(true);
-    setTimeout(() => setShowToast(false), 5000);
+    // setTimeout(() => setShowToast(false), 5000);
   };
 
   return (
@@ -44,7 +44,11 @@ function Toast(props) {
           </button>
         </div>
       </div>
-      {showToast && <ToastContent setShowToast={setShowToast} />}
+      {showToast && (
+        <div className="toast-wrapper">
+          <ToastContent setShowToast={setShowToast} />
+        </div>
+      )}
     </div>
   );
 }

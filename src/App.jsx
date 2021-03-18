@@ -60,6 +60,9 @@ function App() {
                 <a href="/"> Home </a>
               </li>
               <li className="list-item">
+                <a href="/"> About </a>
+              </li>
+              <li className="list-item">
                 <a
                   href="https://github.com/Jaynil1611/mind-ui"
                   target="_blank"
