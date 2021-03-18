@@ -19,6 +19,7 @@ import {
   Home,
 } from "./components";
 import { v4 } from "uuid";
+import { useState } from "react";
 
 const routes = [
   { id: v4(), path: "/avatar", name: "Avatar", component: <Avatar /> },
@@ -44,6 +45,10 @@ const routes = [
 ];
 
 function App() {
+  const [showMenu, setShowMenu] = useState(false);
+  const handleClick = () => setShowMenu(!showMenu);
+  const closeMenu = () => setShowMenu(false);
+
   return (
     <>
       <div className="grid-row">
@@ -53,9 +58,6 @@ function App() {
             <ul className="list-style navbar">
               <li className="list-item">
                 <a href="/"> Home </a>
-              </li>
-              <li className="list-item">
-                <a href="/"> About </a>
               </li>
               <li className="list-item">
                 <a
@@ -72,14 +74,25 @@ function App() {
       </div>
       <div className="grid-row">
         <Router>
-          <div className="grid-col left-nav">
-            <ul className="list-style">
+          <div
+            className={`${showMenu ? "mobile-navbar" : "grid-col left-nav"}`}
+          >
+            <ul className={`list-style`}>
               {routes.map(({ id, path, name }) => (
                 <li className="list-item" key={id}>
-                  <Link to={path}> {name} </Link>
+                  <Link to={path} onClick={closeMenu}>
+                    {name}
+                  </Link>
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="mobile-menu" onClick={handleClick}>
+            {showMenu ? (
+              <i class="fas fa-times fa-2x"></i>
+            ) : (
+              <i class="fas fa-bars fa-2x"></i>
+            )}
           </div>
           {/* <div className="grid-col">
             <div className="line-division"></div>
