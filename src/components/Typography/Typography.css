@@ -8,7 +8,7 @@
 .text-container > * {
   margin: 0.8rem 0;
 }
-
+  
 .text-examples {
   display: flex;
   flex-direction: column;
