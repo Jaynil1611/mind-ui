@@ -44,11 +44,7 @@ function Toast(props) {
           </button>
         </div>
       </div>
-      {showToast && (
-        <div className="toast-wrapper">
-          <ToastContent setShowToast={setShowToast} />
-        </div>
-      )}
+      {showToast && <ToastContent setShowToast={setShowToast} />}
     </div>
   );
 }

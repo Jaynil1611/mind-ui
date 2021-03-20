@@ -44,7 +44,6 @@
 .active {
   display: flex;
   background-color: var(--accent-color);
-  border-bottom: 1px solid var(--text-color);
 }
 
 .disabled {
@@ -71,4 +70,3 @@
 .list-spacing {
   padding: 0.2rem;
 }
-

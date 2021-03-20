@@ -32,6 +32,7 @@ const routes = [
   { id: v4(), path: "/list", name: "List", component: <List /> },
   { id: v4(), path: "/nav", name: "Navigation", component: <Navigation /> },
   { id: v4(), path: "/modal", name: "Modal", component: <Modal /> },
+  { id: v4(), path: "/rating", name: "Rating", component: <Rating /> },
   { id: v4(), path: "/grid", name: "Grid", component: <Grid /> },
   {
     id: v4(),
@@ -40,7 +41,6 @@ const routes = [
     component: <Typography />,
   },
   { id: v4(), path: "/toast", name: "Toast", component: <Toast /> },
-  { id: v4(), path: "/rating", name: "Rating", component: <Rating /> },
   { id: v4(), path: "/", name: "Home", component: <Home /> },
 ];
 

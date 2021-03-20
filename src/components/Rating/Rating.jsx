@@ -79,7 +79,9 @@ function Rating(props) {
       </div>
       <h3> Hover Feedback </h3>
       <div className="rating-examples">
-        <StarRating showFeedback={true} feedback={hoverFeedback} />
+        <div className="rating">
+          <StarRating showFeedback={true} feedback={hoverFeedback} />
+        </div>
       </div>
       <h3> Different Rating Counts </h3>
       <div className="rating-examples">
@@ -90,7 +92,7 @@ function Rating(props) {
           <StarRating count={7} />
         </div>
         <div className="rating">
-          <StarRating count={10} />
+          <StarRating count={9} />
         </div>
       </div>
     </div>

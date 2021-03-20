@@ -33,7 +33,7 @@ function List(props) {
           <ul className="list-group">
             {listExample.map((item, index) => (
               <li
-                className={`list-items ${index & 1 ? "active" : null}`}
+                className={`list-items border ${index & 1 ? "active" : null}`}
                 key={index}
               >
                 {item}
@@ -46,7 +46,7 @@ function List(props) {
             {listExample.map((item, index) => (
               <li
                 tabIndex={`${index & 1 ? "-1" : 0}`}
-                className={`list-items ${index & 1 ? "disabled" : null}`}
+                className={`list-items border ${index & 1 ? "disabled" : null}`}
                 key={index}
               >
                 {item}
@@ -59,7 +59,7 @@ function List(props) {
       <div className="list-examples">
         <ul className="list-group">
           {imageList.slice(0, 4).map(({ id, src, name }) => (
-            <li className={`list-items`} key={id}>
+            <li className={`list-items border`} key={id}>
               <img className="avatar" key={id} src={src} alt="" />
               <div className="list-stacked">
                 <h3> {name} </h3>
