@@ -38,7 +38,7 @@ function Alert(props) {
       </div>
       <h3> Notes: </h3>
       <p>
-        The icons used above are taken from
+        The icons used above are taken from&nbsp;
         <span>
           <a href="https://fontawesome.com/">FontAwesome Icons</a>
         </span>

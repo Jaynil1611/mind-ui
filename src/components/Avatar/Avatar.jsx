@@ -70,7 +70,7 @@ function Avatar(props) {
       <h3> Usage </h3>
       <div className="avatar-images">
         {imageList.map(({ id, src }) => (
-          <img className="avatar" key={id} src={src} alt="" />
+          <img key={id} className="avatar" key={id} src={src} alt="" />
         ))}
       </div>
       <h3> Avatar Sizes </h3>
@@ -97,7 +97,7 @@ function Avatar(props) {
       </p>
       <div className="avatar-images ">
         {imageList.map(({ id, src }) => (
-          <div className="badge">
+          <div key={id} className="badge">
             <img className="avatar" key={id} src={src} alt="" />
             <span className="dot-badge-avatar"></span>
           </div>
@@ -105,7 +105,7 @@ function Avatar(props) {
       </div>
       <h3> Notes : </h3>
       <p>
-        The images used for showing the Avatar are obtained from &nbsp;
+        The images used for showing the Avatar are obtained from&nbsp;
         <span>
           <a href="https://unsplash.com/">Unsplash.com</a>
         </span>

@@ -35,3 +35,9 @@
 .alert-sucess {
   background-color: #3f3d3c;
 }
+
+@media screen and (max-width: 648px) {
+  .alert-examples {
+    width: 100%;
+  }
+}

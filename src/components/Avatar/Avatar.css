@@ -62,7 +62,7 @@
   height: 12px;
   padding: 0;
   min-width: 12px;
-  border: 2px solid white;
+  border: 2.5px solid white;
   border-radius: 10px;
   background-color: var(--accent-color);
 }

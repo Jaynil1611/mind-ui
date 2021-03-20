@@ -37,14 +37,14 @@ function Image(props) {
           />
         </div>
       </div>
-      <h3> Notes : </h3>
-      <p>
-        The images used for showing the Avatar are obtained from &nbsp;
-        <span>
-          <a href="https://unsplash.com/">Unsplash.com</a>
-        </span>
-        .
-      </p>
+        <h3> Notes : </h3>
+        <p>
+          The images used for showing the Avatar are obtained from&nbsp;
+          <span>
+            <a href="https://unsplash.com/">Unsplash.com</a>
+          </span>
+          .
+        </p>
     </div>
   );
 }
