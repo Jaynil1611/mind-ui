@@ -65,10 +65,10 @@ function Button(props) {
           +
         </button>
         <button type="button" className="button-floating">
-          <i class="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </button>
         <button type="button" className="button-floating">
-          <i class="fas fa-pen"></i>
+          <i className="fas fa-pen"></i>
         </button>
       </div>
     </div>

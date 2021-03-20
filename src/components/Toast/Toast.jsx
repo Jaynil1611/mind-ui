@@ -5,7 +5,7 @@ import "../Button/Button";
 const ToastContent = (props) => {
   return (
     <div className="toast">
-      <i class="fas fa-exclamation-triangle fa-lg"></i>
+      <i className="fas fa-exclamation-triangle fa-lg"></i>
       <span className="toast-content">
         Warning! You are following some bad practice
       </span>
@@ -14,7 +14,7 @@ const ToastContent = (props) => {
         className="toast-close button-primary"
         onClick={() => props.setShowToast(false)}
       >
-        <i class="fas fa-times"></i>
+        <i className="fas fa-times"></i>
       </button>
     </div>
   );

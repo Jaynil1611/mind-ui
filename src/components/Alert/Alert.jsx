@@ -12,7 +12,7 @@ function Alert(props) {
       <h3> Usage </h3>
       <div className="alert-examples">
         <div className="alert">
-          <i class="fas fa-exclamation-triangle fa-lg"></i>
+          <i className="fas fa-exclamation-triangle fa-lg"></i>
           <span className="alert-content">
             Warning! You are following some bad practice
           </span>

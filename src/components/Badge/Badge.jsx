@@ -29,32 +29,32 @@ function Badge(props) {
       </p>
       <div className="badges">
         <div className="icons">
-          <i class="fas fa-shopping-cart">
+          <i className="fas fa-shopping-cart">
             <span className="badge-icon"> 6 </span>
           </i>
         </div>
         <div className="icons">
-          <i class="fas fa-shopping-cart">
+          <i className="fas fa-shopping-cart">
             <span className="badge-icon badge-icon-green"> 2 </span>
           </i>
         </div>
         <div className="icons">
-          <i class="fas fa-envelope">
+          <i className="fas fa-envelope">
             <span className="badge-icon"> 2 </span>
           </i>
         </div>
         <div className="icons">
-          <i class="fas fa-envelope">
+          <i className="fas fa-envelope">
             <span className="badge-icon badge-icon-green"> 2 </span>
           </i>
         </div>
         <div className="icons">
-          <i class="far fa-envelope">
+          <i className="far fa-envelope">
             <span className="dot-badge"></span>
           </i>
         </div>
         <div className="icons">
-          <i class="far fa-envelope">
+          <i className="far fa-envelope">
             <span className="dot-badge badge-icon-green"></span>
           </i>
         </div>

@@ -23,7 +23,7 @@ function List(props) {
         <div>
           <ul className="list-group">
             {listExample.map((item, index) => (
-              <li className={`list-items`} key={index}>
+              <li className="list-items border" key={index}>
                 {item}
               </li>
             ))}

@@ -20,7 +20,7 @@ function Home(props) {
           className="button button-primary button-link subtitle-md"
         >
           <a href="/avatar">
-            Get Started <i class="fas fa-arrow-right"></i>
+            Get Started <i className="fas fa-arrow-right"></i>
           </a>
         </button>
       </div>

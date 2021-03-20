@@ -112,9 +112,14 @@ a {
     display: grid;
     position: relative;
     top: 0;
+    right: 0;
     grid-template-columns: 1fr;
     column-gap: 0;
     transition: all 0.9s ease;
+  }
+
+  .grid-col:nth-child(1) {
+    display: none;
   }
 
   .mobile-navbar {
@@ -130,10 +135,6 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     transition: all 0.5s ease;
-  }
-
-  .grid-col:nth-child(1) {
-    display: none;
   }
 
   .mobile-menu {
