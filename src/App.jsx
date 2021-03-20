@@ -51,32 +51,32 @@ function App() {
 
   return (
     <>
-      <div className="grid-row">
-        <div className="heading">
-          <div className="intro">
-            <h1 className="heading-text"> Mind UI Documentation </h1>
-            <ul className="list-style navbar">
-              <li className="list-item">
-                <a href="/"> Home </a>
-              </li>
-              <li className="list-item">
-                <a href="/"> About </a>
-              </li>
-              <li className="list-item">
-                <a
-                  href="https://github.com/Jaynil1611/mind-ui"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </li>
-            </ul>
+      <Router>
+        <div className="grid-row">
+          <div className="heading">
+            <div className="intro">
+              <h1 className="heading-text"> Mind UI Documentation </h1>
+              <ul className="list-style navbar">
+                <li className="list-item">
+                  <Link to={"/"}> Home </Link>
+                </li>
+                <li className="list-item">
+                  <Link to={"/"}> About </Link>
+                </li>
+                <li className="list-item">
+                  <a
+                    href="https://github.com/Jaynil1611/mind-ui"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="grid-row">
-        <Router>
+        <div className="grid-row">
           <div
             className={`${showMenu ? "mobile-navbar" : "grid-col left-nav"}`}
           >
@@ -97,9 +97,6 @@ function App() {
               <i className="fas fa-bars fa-2x"></i>
             )}
           </div>
-          {/* <div className="grid-col">
-            <div className="line-division"></div>
-          </div> */}
           <div className="grid-col">
             <Switch>
               {routes.map(({ id, path, component }) => (
@@ -109,8 +106,8 @@ function App() {
               ))}
             </Switch>
           </div>
-        </Router>
-      </div>
+        </div>
+      </Router>
     </>
   );
 }
