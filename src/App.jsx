@@ -55,7 +55,7 @@ function App() {
         <div className="grid-row">
           <div className="heading">
             <div className="intro">
-              <h1 className="heading-text"> Mind UI Documentation </h1>
+              <h1 className="heading-text">Mind UI Documentation</h1>
               <ul className="list-style navbar">
                 <li className="list-item">
                   <Link to={"/"}> Home </Link>
@@ -69,7 +69,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
+                    <i className="fab fa-github fa-lg"></i>
                   </a>
                 </li>
               </ul>
