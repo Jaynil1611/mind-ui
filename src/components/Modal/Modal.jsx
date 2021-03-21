@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./Modal.css";
 import "../Button/Button.css";
 
-const ModalContent = ({ setShowModal }) => {
+const ModalContent = ({ setShowModal, handleModalClose }) => {
   return (
-    <div className="modal">
+    <div className="modal" onClick={handleModalClose}>
       <div className="modal-content">
         <h3> Modal Heading </h3>
         <p>
@@ -28,7 +28,11 @@ function Modal(props) {
 
   const handleModalClick = () => {
     setShowModal(true);
-    setTimeout(() => setShowModal(false), 6000);
+    // setTimeout(() => setShowModal(false), 5000);
+  };
+
+  const handleModalClose = (e) => {
+    e.target.classList[0] === "modal" && setShowModal(false);
   };
 
   return (
@@ -47,7 +51,14 @@ function Modal(props) {
           Open Modal
         </button>
       </div>
-      <div>{showModal && <ModalContent setShowModal={setShowModal} />}</div>
+      <div>
+        {showModal && (
+          <ModalContent
+            handleModalClose={handleModalClose}
+            setShowModal={setShowModal}
+          />
+        )}
+      </div>
     </div>
   );
 }

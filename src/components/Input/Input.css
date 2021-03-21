@@ -43,13 +43,13 @@
   cursor: text;
   color: var(--text-color);
   border: none;
-  border-bottom: 3px solid transparent;
+  border-bottom: 2px solid transparent;
   background-color: inherit;
   transition: 0.3s all ease;
 }
 
 .input:focus {
-  border-bottom: 3px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
   box-shadow: var(--secondary-color) 0px 4px 4px;
 }
 
