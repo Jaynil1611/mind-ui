@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "../Image/Image.css";
+import { Link } from "react-router-dom";
 
 function Home(props) {
   return (
@@ -19,9 +20,9 @@ function Home(props) {
           type="button"
           className="button button-primary button-link subtitle-md"
         >
-          <a href="/avatar">
+          <Link to={"/avatar"}>
             Get Started <i className="fas fa-arrow-right"></i>
-          </a>
+          </Link>
         </button>
       </div>
       <div className="carbon-embed">
