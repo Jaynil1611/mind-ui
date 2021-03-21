@@ -9,16 +9,20 @@ const body = document.querySelector("body");
 
 const handleModalOpen = () => {
   modalContent.style.display = "flex";
-  setTimeout(() => handlecloseModal(), 6000);
+  setTimeout(() => handleCloseModal(), 5000);
 };
 
-const handlecloseModal = () => {
+const handleCloseModal = () => {
   modalContent.style.display = "none";
+};
+
+window.onclick = function (event) {
+  event.target == modalContent && handleCloseModal();
 };
 
 showModal.addEventListener("click", handleModalOpen);
 
-closeModal.addEventListener("click", handlecloseModal);
+closeModal.addEventListener("click", handleCloseModal);
 
 // --------------------------------------------------------------------------------------------------------------------------------
 
